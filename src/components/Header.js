@@ -79,7 +79,7 @@ export default class Header extends Component {
                   element="projects"
                 >
                   <a className="nav-link" href="#projects">
-                    Projects
+                    Products
                   </a>
                 </Scroll>
               </li>
@@ -87,9 +87,9 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="signup"
+                  element="contact"
                 >
-                  <a className="nav-link" href="#signup">
+                  <a className="nav-link" href="#contact">
                     Contact
                   </a>
                 </Scroll>

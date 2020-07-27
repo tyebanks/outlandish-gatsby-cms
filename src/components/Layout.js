@@ -29,7 +29,8 @@ class Layout extends Component {
               ]}
             >
               <html lang="en" />
-            </Helmet>
+              <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"/>
+            </Helmet>   
             <div className={'page-top'}>{children}</div>
           </>
         )}

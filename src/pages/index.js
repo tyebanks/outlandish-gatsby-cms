@@ -6,7 +6,7 @@ import Scroll from '../components/Scroll';
 import config from '../../config';
 import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
-import Subscribe from '../components/Subscribe';
+import Email from '../components/Email';
 import Header from '../components/Header';
 
 import ipad from '../assets/images/ipad.png';
@@ -27,7 +27,7 @@ const IndexPage = () => (
           </h2>
           <Scroll type="id" element="about">
             <a href="#about" className="btn btn-primary">
-              About
+               Enter
             </a>
           </Scroll>
         </div>
@@ -38,7 +38,7 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">Built with Bootstrap 4</h2>
+            <h2 className="text-white mb-4">We love to Create</h2>
             <p className="text-white-50">
               Grayscale is a free Bootstrap theme created by Start Bootstrap. It
               can be yours right now, simply download the starter on
@@ -93,7 +93,8 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage2} alt="" />
+
+          <img className="img-fluid" src={demoImage2} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
@@ -113,10 +114,10 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-
-    <Subscribe />
-
     <SocialLinks />
+    <Email />
+
+   
     <Footer />
   </Layout>
 );

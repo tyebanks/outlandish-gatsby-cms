@@ -6,16 +6,27 @@
 @import 'buttons.scss';
 @import 'about.scss';
 @import 'projects.scss';
-@import 'signup.scss';
 @import 'contact.scss';
 
 @import './fontawesome/css/all.min.css';
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
-@import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@900&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Varela+Round');
+// @import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
 
-body {
-  font-family: 'Nunito';
-  letter-spacing: 0.0625em;
+
+
+h1,h2 {
+  font-family: 'Roboto';
+  font-size: 80px;
+}
+
+p {
+  font-size: 1.35em;
+  text-align: 'center';
+}
+
+body{
+  font-family: 'Open Sans';
 }
 
 a {
@@ -40,5 +51,6 @@ a {
 }
 
 footer {
-  padding: 5rem 0;
+   padding: 1.75rem 0;
+   font-size: 90%;
 }
