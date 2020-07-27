@@ -39,13 +39,11 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-lg-8 mx-auto">
             <h2 className="text-white mb-4">We love to Create</h2>
-            <p className="text-white-50">
-              Grayscale is a free Bootstrap theme created by Start Bootstrap. It
-              can be yours right now, simply download the starter on
-              <a href="https://github.com/anubhavsrivastava/gatsby-starter-grayscale">
-                the github repo
-              </a>
-              .
+            <p className="text-white">We are the home of Cayman's best Handmade Jewelry, Chainmaille, Charms,
+             Sculptures, Arts, Crafts, DIYs and more! We are always trying something new and fun and are happy
+             to hear what you want to see us do!</p>
+             <p className="text-white-50">Want to place an order? Send us a message via Facebook:
+             <a href="https://www.facebook.com/outlandish.cayman/"> @outlandish.cayman</a> .
             </p>
           </div>
         </div>
@@ -54,10 +52,12 @@ const IndexPage = () => (
     </section>
 
     <section id="projects" className="projects-section bg-light">
+    <h2 className="mb-4">Our Products</h2>
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
             <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt="" />
+            
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">

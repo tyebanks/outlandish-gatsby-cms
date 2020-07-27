@@ -53,14 +53,14 @@
     &.navbar-shrink {
       background-color: $white;
       .navbar-brand {
-        color: $black;
+        color: $black; 
       }
       .nav-link {
-        color: $black;
+        color: $black; 
         padding: 1.5rem 1.5rem 1.25rem;
         border-bottom: 0.25rem solid transparent;
         &:hover {
-          color: $primary;
+          color: $secondary; //primary
         }
         &:active {
           color: darken($primary, 15%);
