@@ -469,7 +469,6 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  color: red;
 }
 
 .blockquote-footer::before {

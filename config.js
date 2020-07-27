@@ -9,8 +9,17 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Outlandish Cayman',
-  subHeading: 'Convenient, Crafty and Courteous service  ',
+ // you can put something here and then in the file do config.heading to show it
 
+  
+   // top page
+  Header:[
+    {
+      icon: 'fa-arrow-alt-circle-down',
+      name: 'Down Arrow',
+    } 
+  ],
+  
   // social
   socialLinks: [
     {
@@ -35,6 +44,6 @@ module.exports = {
     },
   ],
   email: 'info@outlandishcayman.com',
-  phone: '929-5939',
+  phone: '(345)929-5939',
   address: '72 North Church St, George Town, CI',
 };

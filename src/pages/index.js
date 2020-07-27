@@ -9,10 +9,10 @@ import SocialLinks from '../components/SocialLinks';
 import Email from '../components/Email';
 import Header from '../components/Header';
 
-import ipad from '../assets/images/ipad.png';
 import demoImage1 from '../assets/images/demo-image-01.jpg';
 import demoImage2 from '../assets/images/demo-image-02.jpg';
 import bgMaster from '../assets/images/bg-masthead.jpg';
+import logo from '../assets/images/logo2.png';
 
 const IndexPage = () => (
   <Layout>
@@ -21,15 +21,18 @@ const IndexPage = () => (
     <header className="masthead">
       <div className="container d-flex h-100 align-items-center">
         <div className="mx-auto text-center">
-          <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1>
-          <h2 className="text-white-50 mx-auto mt-2 mb-5">
-            {config.subHeading}
-          </h2>
+        <img src={logo} className="img-fluid" alt="" />
+          {/* <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1> */}
+          {/* <h2 className="text-black-50 mx-auto mt-2 mb-5">
+          </h2> */}
+          <p className="mt-5 mb-5">Convenient, Crafty and Courteous service</p>
           <Scroll type="id" element="about">
+            
             <a href="#about" className="btn btn-primary">
                Enter
             </a>
           </Scroll>
+         <div className="signup-section "><p>I work</p></div>
         </div>
       </div>
     </header>
@@ -47,11 +50,11 @@ const IndexPage = () => (
             </p>
           </div>
         </div>
-        <img src={ipad} className="img-fluid" alt="" />
+        
       </div>
     </section>
 
-    <section id="projects" className="projects-section bg-light">
+    <section id="products" className="products-section bg-light">
     <h2 className="mb-4">Our Products</h2>
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
