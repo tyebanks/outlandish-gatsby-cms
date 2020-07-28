@@ -6,9 +6,7 @@
   padding: 15rem 0;
   background-image: url('../images/bg-contact.png');
   background-attachment: scroll;
-   // background-position: center;
-  // background-repeat: no-repeat;
-   // background-size: cover;
+
   h1 {
     font-family: 'Varela Round';
     font-size: 2.5rem;
@@ -44,4 +42,24 @@
       font-size: 1.25rem;
     }
   }
+
+  // Animation code below
+
+  .text {
+    align-self: flex-end;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    margin: 0 auto 0 auto;
+/*         transform-origin: top; */
+}
+.floating {
+    animation-name: floating;
+    animation-timing-function: linear;
+}
+@keyframes floating {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
 }

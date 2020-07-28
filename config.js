@@ -10,7 +10,9 @@ module.exports = {
   pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Outlandish Cayman',
  // you can put something here and then in the file do config.heading to show it
-
+//example:  {/* <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1> */}
+//* <h2 className="text-black-50 mx-auto mt-2 mb-5">
+// </h2> */
   
    // top page
   Header:[

@@ -22,17 +22,14 @@ const IndexPage = () => (
       <div className="container d-flex h-100 align-items-center">
         <div className="mx-auto text-center">
         <img src={logo} className="img-fluid" alt="" />
-          {/* <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1> */}
-          {/* <h2 className="text-black-50 mx-auto mt-2 mb-5">
-          </h2> */}
-          <p className="mt-5 mb-5">Convenient, Crafty and Courteous service</p>
+         
+          <p className="mt-5 mb-5 text floating font-italic">Convenient, Crafty and Courteous service</p>
           <Scroll type="id" element="about">
             
             <a href="#about" className="btn btn-primary">
                Enter
             </a>
           </Scroll>
-         <div className="signup-section "><p>I work</p></div>
         </div>
       </div>
     </header>
