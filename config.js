@@ -1,14 +1,14 @@
 module.exports = {
   siteTitle: 'Outlandish Cayman', // <title>
-  manifestName: 'Grayscale',
+  manifestName: 'outlandish',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Outlandish Cayman',
+  pathPrefix: `/gatsby-starter-outlandish/`, // This path is subpath of your hosting https://domain/portfolio
+  heading: 'outlandish.store',
  // you can put something here and then in the file do config.heading to show it
 //example:  {/* <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1> */}
 //* <h2 className="text-black-50 mx-auto mt-2 mb-5">

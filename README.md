@@ -1,10 +1,10 @@
-# gatsby-starter-grayscale
+# gatsby-starter-outlandish
 
-Gatsby.js V2 starter template based on Grayscale by startbootstrap
+Gatsby.js V2 starter template based on outlandish by startbootstrap
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
 
-Check online preview [here](https://anubhavsrivastava.github.io/gatsby-starter-grayscale/)
+Check online preview [here](https://anubhavsrivastava.github.io/gatsby-starter-outlandish/)
 
 ## Screenshot
 
@@ -21,7 +21,7 @@ npm install --global gatsby-cli
 And run from your CLI:
 
 ```sh
-gatsby new <site-name> https://github.com/anubhavsrivastava/gatsby-starter-grayscale
+gatsby new <site-name> https://github.com/anubhavsrivastava/gatsby-starter-outlandish
 ```
 
 Then you can run it by:
@@ -38,7 +38,7 @@ Edit `config.js` to put up your details
 
 ```javascript
 module.exports = {
-  siteTitle: 'Gatsby Starter grayscale', // <title>
+  siteTitle: 'Gatsby Starter outlandish', // <title>
   ...
   heading: 'Anubhav Srivastava',
   subHeading: 'Full time Web Developer. Part time Open source contributor  ',
@@ -66,7 +66,7 @@ Additionally, it also has [path-prefix](https://www.gatsbyjs.org/docs/path-prefi
 ### Checkout other similar starters
 
 - [gatsby-starter-casual](https://github.com/anubhavsrivastava/gatsby-starter-casual)
-- [gatsby-starter-grayscale](https://github.com/anubhavsrivastava/gatsby-starter-grayscale)
+- [gatsby-starter-outlandish](https://github.com/anubhavsrivastava/gatsby-starter-outlandish)
 - [gatsby-starter-resume](https://github.com/anubhavsrivastava/gatsby-starter-resume)
 - [gatsby-starter-spectral](https://github.com/anubhavsrivastava/gatsby-starter-spectral)
 - [gatsby-starter-newage](https://github.com/anubhavsrivastava/gatsby-starter-newage)

@@ -40,11 +40,7 @@ export default class Header extends Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand" href="#pagetop">
-            {config.siteTitle}
-          </a>
-
-          
+        
            <button
             onClick={_ => this.toggleMenu(!openMenu)}
             className={`navbar-toggler navbar-toggler-right ${
@@ -62,6 +58,15 @@ export default class Header extends Component {
             className={`collapse navbar-collapse ${openMenu ? 'show' : ''}`}
             id="navbarResponsive"
           >
+           <Scroll 
+                  onClick={_ => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="page-top"
+                >
+                  <a className="navbar-brand" href="#page-top">
+                    {config.siteTitle}
+                  </a>
+                </Scroll>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <Scroll
@@ -96,6 +101,7 @@ export default class Header extends Component {
                   </a>
                 </Scroll>
               </li>
+        
             </ul>
           </div>
         </div>

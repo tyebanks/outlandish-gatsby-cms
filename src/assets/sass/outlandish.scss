@@ -9,15 +9,19 @@
 @import 'contact.scss';
 
 @import './fontawesome/css/all.min.css';
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@900&family=Source+Sans+Pro:wght@700&display=swap');
 // @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 // @import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
 
 
 
-h1,h2 {
+h1 {
   font-family: 'Roboto';
   font-size: 80px;
+}
+h2 {
+  font-family: 'Source Sans Pro';
+  font-size: 50px;
 }
 
 p {
@@ -41,7 +45,9 @@ a {
 .bg-black {
   background-color: $black !important;
 }
-
+.bg-grey{
+  background-color: $grey !important;
+}
 .bg-primary {
   background-color: $primary !important;
 }
@@ -49,7 +55,10 @@ a {
 .text-primary {
   color: $primary !important;
 }
+.products-section{
 
+  background: linear-gradient(180deg, rgba(0, 239, 181, 0.87) 0%, #56B7B3 100%), url('../images/bg-06.png');
+}
 footer {
    padding: 1.75rem 0;
    font-size: 90%;

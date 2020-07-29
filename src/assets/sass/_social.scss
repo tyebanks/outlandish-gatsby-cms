@@ -1,0 +1,45 @@
+@import './bootstrap/bootstrap.min.css';
+
+.social-section{
+   
+    a {
+        position: relative; 
+        display: block;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        //  background: #000;
+        border-radius: 50%;
+        border: 1.15px solid #8E6FBB;
+        font-size: 25px;
+        color: #8e6fbb;
+        transition: .6s;
+      }
+      
+      a::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: #8E6FBB;
+        transition: .5s;
+        transform: scale(.9);
+        z-index: -1;
+      }
+      a:hover::before {
+        transform: scale(1.1);
+        box-shadow: 0 0 15px #8E6FBB;
+      }
+      
+      a:hover {
+        background: #fff;
+        color: #8E6FBB;
+        box-shadow: 0 0 5px #8E6FBB;
+        text-shadow: 0 0 5px #8E6FBB;
+      }
+    
+}

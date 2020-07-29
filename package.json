@@ -1,10 +1,10 @@
 {
-  "name": "gatsby-starter-grayscale",
+  "name": "gatsby-starter-outlandish",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Grayscale by startbootstrap",
+  "description": "Gatsby.js V2 starter template based on outlandish by startbootstrap",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-grayscale.git"
+    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-outlandish.git"
   },
   "author": {
     "name": "Anubhav Srivastava",
@@ -43,11 +43,11 @@
   "keywords": [
     "gatsby",
     "gatsby-starter",
-    "gatsby-starter-grayscale"
+    "gatsby-starter-outlandish"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-grayscale/issues"
+    "url": "https://github.com/anubhavsrivastava/gatsby-starter-outlandish/issues"
   },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-grayscale#readme"
+  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-outlandish#readme"
 }

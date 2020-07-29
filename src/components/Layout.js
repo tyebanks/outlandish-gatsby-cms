@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 
-import '../assets/sass/grayscale.scss';
+import '../assets/sass/outlandish.scss';
 
 class Layout extends Component {
   render() {
@@ -24,14 +24,14 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Grayscale' },
+                { name: 'description', content: 'outlandish' },
                 { name: 'keywords', content: 'site, web' },
               ]}
             >
               <html lang="en" />
               <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"/>
             </Helmet>   
-            <div className={'pagetop'}>{children}</div>
+            <div id={'page-top'}>{children}</div>
           </>
         )}
       />

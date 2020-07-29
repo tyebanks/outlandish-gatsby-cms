@@ -3,34 +3,37 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 
-import config from '../../config';
+// import config from '../../config';
 import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
 import Email from '../components/Email';
 import Header from '../components/Header';
 
-import demoImage1 from '../assets/images/demo-image-01.jpg';
-import demoImage2 from '../assets/images/demo-image-02.jpg';
-import bgMaster from '../assets/images/bg-masthead.jpg';
 import logo from '../assets/images/logo2.png';
+import product1 from '../assets/images/image-1.jpg';
+import product2 from '../assets/images/image-2.jpg';
+import product3 from '../assets/images/image-3.jpg';
+import product4 from '../assets/images/image-4.jpg';
+import product5 from '../assets/images/image-5.jpg';
+import product6 from '../assets/images/image-6.jpg';
+import product7 from '../assets/images/image-7.jpg';
+import product8 from '../assets/images/image-8.jpg';
+import product9 from '../assets/images/image-9.jpg';
+
 
 const IndexPage = () => (
   <Layout>
     <Header />
-
     <header className="masthead">
-      <div className="container d-flex h-100 align-items-center">
-        <div className="mx-auto text-center">
-        <img src={logo} className="img-fluid" alt="" />
-         
-          <p className="mt-5 mb-5 text floating font-italic">Convenient, Crafty and Courteous service</p>
-          <Scroll type="id" element="about">
-            
-            <a href="#about" className="btn btn-primary">
-               Enter
-            </a>
-          </Scroll>
-        </div>
+      <div className="container d-flex h-100 align-items-center mb-0">
+          <div className="mx-auto text-center">
+             <img src={logo} className="img-fluid" alt="" />
+                    {/* <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1> */}       
+             <p className="mt-5 mb-5 text floating">Convenient, Crafty and Courteous service</p>
+             <Scroll type="id" element="about">
+                 <a href="#about" className="btn btn-primary">Enter</a>
+            </Scroll>          
+          </div>
       </div>
     </header>
 
@@ -43,81 +46,125 @@ const IndexPage = () => (
              Sculptures, Arts, Crafts, DIYs and more! We are always trying something new and fun and are happy
              to hear what you want to see us do!</p>
              <p className="text-white-50">Want to place an order? Send us a message via Facebook:
-             <a href="https://www.facebook.com/outlandish.cayman/"> @outlandish.cayman</a> .
+             <a href="https://www.facebook.com/outlandish.cayman/"> @outlandish.cayman</a>.
+             
             </p>
-          </div>
-        </div>
-        
-      </div>
-    </section>
-
-    <section id="products" className="products-section bg-light">
-    <h2 className="mb-4">Our Products</h2>
-      <div className="container">
-        <div className="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div className="col-xl-8 col-lg-7">
-            <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt="" />
             
           </div>
-          <div className="col-xl-4 col-lg-5">
-            <div className="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
-              <p className="text-black-50 mb-0">
-                Grayscale is open source and MIT licensed. This means you can
-                use it for any project - even commercial projects! Download it,
-                customize it, and publish your website!
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage1} alt="" />
-          </div>
-          <div className="col-lg-6">
-            <div className="bg-black text-center h-100 project">
-              <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Misty</h4>
-                  <p className="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
-                  </p>
-                  <hr className="d-none d-lg-block mb-0 ml-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row justify-content-center no-gutters">
-          <div className="col-lg-6">
-
-          <img className="img-fluid" src={demoImage2} alt="" />
-          </div>
-          <div className="col-lg-6 order-lg-first">
-            <div className="bg-black text-center h-100 project">
-              <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Mountains</h4>
-                  <p className="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
-                  </p>
-                  <hr className="d-none d-lg-block mb-0 mr-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        </div>        
       </div>
     </section>
-    <SocialLinks />
-    <Email />
-
    
+    <section id="products" className="products-section ">
+      {/* <h2 className="mb-4">Products</h2> */}
+      <div className="container">
+     
+        <div className=" row mb-4">  
+          <div className="col-6 col-sm-4">
+            <div className="card h-100 shadow p-3 mb-5 bg-white rounded">
+              <img className="card-img" src={product1} alt=""/>
+              <div className="card-body">
+                <div className="card-title">Earrings</div>
+                <div className="card-text">Price: CI$25</div>
+              </div>
+            </div>
+          </div>
+        
+
+      
+          <div className="col-6 col-sm-4">
+            <div className="card h-100 shadow p-3 mb-5 bg-white rounded">
+              <img className="img-fluid mb-3 mb-lg-0" src={product2} alt="" />
+              <div className="card-body">
+                <div className="card-title">Bracelets</div>
+                <div className="card-text">Price: CI$25</div>
+              </div>
+            </div>
+          </div>
+        
+
+        
+          <div className="col-6 col-sm-4">
+            <div className="card h-100 shadow p-3 mb-5 bg-white rounded">
+              <img className="img-fluid mb-3 mb-lg-0" src={product3} alt="" />
+              <div className="card-body">
+                <div className="card-title">Swarovski Crystal Sets</div>
+                <div className="card-text">Price: CI$25</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div className=" row mb-4">  
+          <div className="col-6 col-sm-4">
+            <div className="card h-100 shadow p-3 mb-5 bg-white rounded">
+              <img className="card-img" src={product4} alt=""/>
+              <div className="card-body">
+                <div className="card-title">Pendants</div>
+                <div className="card-text">Price: CI$25</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-6 col-sm-4">
+            <div className="card h-100 shadow p-3 mb-5 bg-white rounded">
+              <img className="img-fluid mb-3 mb-lg-0" src={product5} alt="" />
+              <div className="card-body">
+                <div className="card-title">Wire Bracelets</div>
+                <div className="card-text">Price: CI$25</div>
+              </div>
+            </div>
+          </div> 
+          <div className="col-6 col-sm-4">
+            <div className="card h-100 shadow p-3 mb-5 bg-white rounded">
+              <img className="card-img" src={product6} alt=""/>
+              <div className="card-body">
+                <div className="card-title">Chainmaille Bracelet</div>
+                <div className="card-text">Price: CI$25</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+              
+        <div className=" row mb-4">  
+          <div className="col-6 col-sm-4">
+            <div className="card h-100 shadow p-3 mb-5 bg-white rounded">
+              <img className="card-img" src={product7} alt=""/>
+              <div className="card-body">
+                <div className="card-title">Angry Toast Plush</div>
+                <div className="card-text">Price: CI$25</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-6 col-sm-4">
+            <div className="card h-100 shadow p-3 mb-5 bg-white rounded">
+              <img className="img-fluid mb-3 mb-lg-0" src={product8} alt="" />
+              <div className="card-body">
+                <div className="card-title">Cayman Parrot Plush</div>
+                <div className="card-text">Price: CI$25</div>
+              </div>
+            </div>
+          </div> 
+          <div className="col-6 col-sm-4">
+            <div className="card h-100 shadow p-3 mb-5 bg-white rounded">
+              <img className="card-img" src={product9} alt=""/>
+              <div className="card-body">
+                <div className="card-title">Kawaii Octopus Plush</div>
+                <div className="card-text">Price: CI$25</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+  
+      </div>      
+    </section> 
+    <SocialLinks/>   
+    <Email />
     <Footer />
   </Layout>
 );

@@ -8,7 +8,7 @@ const IndexPage = () => (
   <Layout>
     <Header />
     <header className="masthead">
-      <div className="container d-flex h-100 align-items-center">
+      <div className="container d-flex h-75 align-items-center">
         <div className="mx-auto text-center">
           <h1 className="mx-auto my-0 text-uppercase">Oops... we're sorry. Page not found</h1>
           <h2 className="text-white-50 mx-auto mt-2 mb-5">Not a valid URL</h2>
