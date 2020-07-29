@@ -3,11 +3,9 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 
-// import config from '../../config';
-import Footer from '../components/Footer';
-import SocialLinks from '../components/SocialLinks';
-import Email from '../components/Email';
 import Header from '../components/Header';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 import logo from '../assets/images/logo2.png';
 import product1 from '../assets/images/image-1.jpg';
@@ -29,9 +27,11 @@ const IndexPage = () => (
           <div className="mx-auto text-center">
              <img src={logo} className="img-fluid" alt="" />
                     {/* <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1> */}       
-             <p className="mt-5 mb-5 text floating">Convenient, Crafty and Courteous service</p>
+             <p className="mt-5 mb-5">Convenient, Crafty and Courteous service</p>
              <Scroll type="id" element="about">
-                 <a href="#about" className="btn btn-primary">Enter</a>
+                 
+                 <a href="#about"><i className="fas fa-angle-double-down text floating text-white"></i></a>
+                 
             </Scroll>          
           </div>
       </div>
@@ -45,9 +45,8 @@ const IndexPage = () => (
             <p className="text-white">We are the home of Cayman's best Handmade Jewelry, Chainmaille, Charms,
              Sculptures, Arts, Crafts, DIYs and more! We are always trying something new and fun and are happy
              to hear what you want to see us do!</p>
-             <p className="text-white-50">Want to place an order? Send us a message via Facebook:
-             <a href="https://www.facebook.com/outlandish.cayman/"> @outlandish.cayman</a>.
-             
+             <p className="text-white">Want to place an order? Send us a message via Facebook:
+             <a className="text-yellow" href="https://www.facebook.com/outlandish.cayman/" > @outlandish.cayman</a>             
             </p>
             
           </div>
@@ -55,10 +54,9 @@ const IndexPage = () => (
       </div>
     </section>
    
-    <section id="products" className="products-section ">
-      {/* <h2 className="mb-4">Products</h2> */}
-      <div className="container">
+    <section id="products" className="products-section">
      
+      <div className="container">     
         <div className=" row mb-4">  
           <div className="col-6 col-sm-4">
             <div className="card h-100 shadow p-3 mb-5 bg-white rounded">
@@ -163,8 +161,7 @@ const IndexPage = () => (
   
       </div>      
     </section> 
-    <SocialLinks/>   
-    <Email />
+    <Contact />
     <Footer />
   </Layout>
 );

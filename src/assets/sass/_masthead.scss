@@ -1,25 +1,25 @@
 .masthead {
-  border: 2px solid black;
+ 
   position: relative;
   width: 100%;
   height: auto;
   min-height: 35rem;
   padding: 1rem 0; //15rem
-  background-image: url('../images/bg-pattern-01.png');
+  background: url('../images/art.jpg') no-repeat center center fixed;
   background-attachment: scroll;
-
   
   @media (min-width: 768px) {
     img {
-    
+      margin-top: 15%;
       width: 80%;
     }
   }
   @media (min-width: 992px) {
-    height: 100vh;
+    height: 95vh;
     padding: 0;
+    margin: 0;
     img {
-      width: 50%;    
+      width: 100%;    
     }
   }
 
@@ -31,11 +31,11 @@
     animation-iteration-count: infinite;
     margin: 0 auto 0 auto;
 /*         transform-origin: top; */
-}
-.floating {
+  }
+ .floating {
     animation-name: floating;
     animation-timing-function: linear;
-}
+ }
 @keyframes floating {
     0%   { transform: translateY(0); }
     50%  { transform: translateY(-20px); }

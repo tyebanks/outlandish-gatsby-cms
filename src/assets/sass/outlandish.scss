@@ -1,9 +1,7 @@
 @import './bootstrap/bootstrap.min.css';
 @import 'variables.scss';
-@import 'mixins.scss';
 @import 'navbar.scss';
 @import 'masthead.scss';
-@import 'buttons.scss';
 @import 'about.scss';
 @import 'products.scss';
 @import 'contact.scss';
@@ -34,31 +32,28 @@ body{
 }
 
 a {
-  color: $primary;
-  &:focus,
-  &:hover {
-    text-decoration: none;
-    color: darken($primary, 20%);
-  }
+     color: $yellow;
+     
+     &:hover {
+     text-decoration: none;
+     color: $white;
+    }
 }
 
 .bg-black {
-  background-color: $black !important;
+  background-color: $gray-300 !important;
 }
-.bg-grey{
-  background-color: $grey !important;
+.bg-gray-200{
+  background-color: $gray-200 !important;
 }
 .bg-primary {
-  background-color: $primary !important;
+  background-color: $teal !important;
 }
 
 .text-primary {
-  color: $primary !important;
+  color: $teal !important;
 }
-.products-section{
 
-  background: linear-gradient(180deg, rgba(0, 239, 181, 0.87) 0%, #56B7B3 100%), url('../images/bg-06.png');
-}
 footer {
    padding: 1.75rem 0;
    font-size: 90%;

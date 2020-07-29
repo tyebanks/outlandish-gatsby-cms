@@ -6,7 +6,7 @@ export default function SocialLinks() {
   return (
      <section className="social-section">
      {/* //bg-grey */}
-      <div className="container">
+      {/* <div className="container"> */}
          <div className="social d-flex justify-content-center">
           {config.socialLinks.map(social => {
             const { icon, url } = social;
@@ -17,7 +17,7 @@ export default function SocialLinks() {
             );
           })}
         </div>
-      </div>
+      {/* </div> */}
     </section>
   );
 }

@@ -51,8 +51,8 @@ export default class Header extends Component {
             aria-expanded={openMenu}
             aria-label="Toggle navigation"
           >
-            Menu
-            <i className="fas fa-bars"></i>
+          {/* /* Menu below */}
+            <i className="fas fa-bars text-white"></i> 
           </button>
           <div
             className={`collapse navbar-collapse ${openMenu ? 'show' : ''}`}
@@ -64,7 +64,7 @@ export default class Header extends Component {
                   element="page-top"
                 >
                   <a className="navbar-brand" href="#page-top">
-                    {config.siteTitle}
+                   <i className="fa fa-home"></i>
                   </a>
                 </Scroll>
             <ul className="navbar-nav ml-auto">
