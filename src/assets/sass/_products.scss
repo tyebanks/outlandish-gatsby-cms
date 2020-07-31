@@ -40,10 +40,12 @@
       font-size: 93%;
     }
   }
-  @media (min-width: 768px){
+
+  @media screen and (max-width: 991px) and (min-width: 768px){
     .container{
+      max-width: 400px;
       width: 100vw;
-      font-size: 40px;
+      font-size: 75%;
       padding: 8% 0 8% 0;
     }    
     .col{
@@ -51,18 +53,29 @@
       justify-content: center;
     }
      .card{
-      width: 60vw;
+      width: 50vw;
     }
   }
 
   @media (min-width: 992px) {
-
-    div> .col {
-      padding: 0 0 0 2rem;
-    border: 0.5rem solid $yellow;
-
+    .container{
+      // border: 0.5rem solid $teal;
+      padding-top: 6%;
+      padding-bottom: 6%;
+      font-size: 90%;  
     }
-    
+    .row{
+      display: flex;
+      justify-content: space-evenly;
+      margin: 0;
+      padding: 0;
+    }
+    .col {
+      padding-bottom: 6%;
+    }
+    .card{
+      max-width: 319px;
+    } 
   }
 
 }
