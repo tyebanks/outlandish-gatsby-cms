@@ -35,8 +35,8 @@ const IndexPage = () => (
             </Scroll>          
           </div>
       </div>
-    </header>
-
+    </header>   
+   
     <section id="about" className="about-section text-center">
       <div className="container">
         <div className="row">
@@ -56,10 +56,11 @@ const IndexPage = () => (
    
     <section id="products" className="products-section">
      
-      <div className="container">     
-        <div className=" row mb-4">  
-          <div className="col-6 col-sm-4">
-            <div className="card h-100 shadow p-3 mb-5 bg-white rounded">
+      <div className="container">  
+
+        <div className="row">
+          <div className="col">
+            <div className="card h-100 shadow bg-white rounded">
               <img className="card-img" src={product1} alt=""/>
               <div className="card-body">
                 <div className="card-title">Earrings</div>
@@ -70,9 +71,9 @@ const IndexPage = () => (
         
 
       
-          <div className="col-6 col-sm-4">
-            <div className="card h-100 shadow p-3 mb-5 bg-white rounded">
-              <img className="img-fluid mb-3 mb-lg-0" src={product2} alt="" />
+          <div className="col">
+            <div className="card h-100 shadow bg-white rounded">
+              <img className="img-fluid" src={product2} alt="" />
               <div className="card-body">
                 <div className="card-title">Bracelets</div>
                 <div className="card-text">Price: CI$25</div>
@@ -82,21 +83,21 @@ const IndexPage = () => (
         
 
         
-          <div className="col-6 col-sm-4">
-            <div className="card h-100 shadow p-3 mb-5 bg-white rounded">
-              <img className="img-fluid mb-3 mb-lg-0" src={product3} alt="" />
+          <div className="col">
+            <div className="card h-100 shadow bg-white rounded">
+              <img className="img-fluid" src={product3} alt="" />
               <div className="card-body">
                 <div className="card-title">Swarovski Crystal Sets</div>
                 <div className="card-text">Price: CI$25</div>
               </div>
             </div>
           </div>
-        </div>
+      
 
         
-        <div className=" row mb-4">  
-          <div className="col-6 col-sm-4">
-            <div className="card h-100 shadow p-3 mb-5 bg-white rounded">
+        
+          <div className="col">
+            <div className="card h-100 shadow bg-white rounded">
               <img className="card-img" src={product4} alt=""/>
               <div className="card-body">
                 <div className="card-title">Pendants</div>
@@ -105,17 +106,18 @@ const IndexPage = () => (
             </div>
           </div>
 
-          <div className="col-6 col-sm-4">
-            <div className="card h-100 shadow p-3 mb-5 bg-white rounded">
-              <img className="img-fluid mb-3 mb-lg-0" src={product5} alt="" />
+          <div className="col">
+            <div className="card h-90 shadow bg-white rounded">
+              <img className="img-fluid" src={product5} alt="" />
               <div className="card-body">
                 <div className="card-title">Wire Bracelets</div>
                 <div className="card-text">Price: CI$25</div>
               </div>
             </div>
           </div> 
-          <div className="col-6 col-sm-4">
-            <div className="card h-100 shadow p-3 mb-5 bg-white rounded">
+
+          <div className="col">
+            <div className="card h-90 shadow bg-white rounded">
               <img className="card-img" src={product6} alt=""/>
               <div className="card-body">
                 <div className="card-title">Chainmaille Bracelet</div>
@@ -124,12 +126,11 @@ const IndexPage = () => (
             </div>
           </div>
 
-        </div>
+        
 
-              
-        <div className=" row mb-4">  
-          <div className="col-6 col-sm-4">
-            <div className="card h-100 shadow p-3 mb-5 bg-white rounded">
+        
+          <div className="col">
+            <div className="card h-90 shadow bg-white rounded">
               <img className="card-img" src={product7} alt=""/>
               <div className="card-body">
                 <div className="card-title">Angry Toast Plush</div>
@@ -138,17 +139,18 @@ const IndexPage = () => (
             </div>
           </div>
 
-          <div className="col-6 col-sm-4">
-            <div className="card h-100 shadow p-3 mb-5 bg-white rounded">
-              <img className="img-fluid mb-3 mb-lg-0" src={product8} alt="" />
+          <div className="col">
+            <div className="card h-90 shadow bg-white rounded">
+              <img className="img-fluid" src={product8} alt="" />
               <div className="card-body">
                 <div className="card-title">Cayman Parrot Plush</div>
                 <div className="card-text">Price: CI$25</div>
               </div>
             </div>
           </div> 
-          <div className="col-6 col-sm-4">
-            <div className="card h-100 shadow p-3 mb-5 bg-white rounded">
+
+          <div className="col">
+            <div className="card h-90 shadow bg-white rounded">
               <img className="card-img" src={product9} alt=""/>
               <div className="card-body">
                 <div className="card-title">Kawaii Octopus Plush</div>
@@ -156,10 +158,9 @@ const IndexPage = () => (
               </div>
             </div>
           </div>
-
         </div>
-  
-      </div>      
+      </div>  
+       
     </section> 
     <Contact />
     <Footer />

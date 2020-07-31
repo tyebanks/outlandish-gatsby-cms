@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from 'gatsby';
 
 import '../assets/sass/outlandish.scss';
 
+
 class Layout extends Component {
   render() {
     const { children } = this.props;

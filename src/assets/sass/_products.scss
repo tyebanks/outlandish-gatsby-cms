@@ -1,21 +1,61 @@
 .products-section {
   background-image: url('../images/bg-07.png');
-  padding: 10rem 0;
-  
+  padding: 0;
+  margin: 0;
+  height: auto;
+  font-size: 1.75em;
+  font-family: Source Sans Pro, serif;
+
+  @media (min-width: 300px){
+    padding:0;
+    margin:0;
+    
+    .container{
+      display: flex;
+      width: 100vw;
+      padding-top: 20%;
+      padding-bottom: 20%;
+    }
+    .row{
+      width:100%;
+      padding: 0;
+      margin: 0;
+      
+    }
+    .col{
+      width: 100%;
+      display: flex;
+      padding: 2%;
+      padding-bottom: 12%;
+    }
+    .card{
+      width: 85vw;
+    }
+    .card-text {
+      font-size: 85%;
+    }
+    .card-title{
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 93%;
+    }
+  }
+  @media (min-width: 768px){
+  }
+
+  @media (min-width: 992px) {
+
+    div> .col {
+      padding: 0 0 0 2rem;
+    border: 0.5rem solid $yellow;
+
+    }
+    
+  }
+
 }
   
 
-    //   @media (min-width: 992px) {
-  //     padding: 0 0 0 2rem;
-  //     border-left: 0.5rem solid $primary;
-  //   }
-  //   // @media (min-width: 992px) {
-  //   //   padding: 5rem;
-  //   //   hr {
-  //   //     border-color: $primary;
-  //   //     border-width: .25rem;
-  //   //     width: 30%;
-  //   //   }
-  //   // }
-  // }
+      
+  
 
