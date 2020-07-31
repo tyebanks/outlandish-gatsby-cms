@@ -3,14 +3,16 @@
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
+  // min-height: 35rem;
   padding: 1rem 0; //15rem
   background: url('../images/art.jpg') no-repeat center center fixed;
   background-attachment: scroll;
   
 
-  @media (min-width: 500px) {
+  @media (min-width: 400px) {
     img{
+      max-width: 700px;
+      width: 90%;
       margin-top: 28%;
     }
   }
