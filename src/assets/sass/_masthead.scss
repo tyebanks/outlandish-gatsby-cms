@@ -8,6 +8,12 @@
   background: url('../images/art.jpg') no-repeat center center fixed;
   background-attachment: scroll;
   
+
+  @media (min-width: 500px) {
+    img{
+      margin-top: 28%;
+    }
+  }
   @media (min-width: 768px) {
     img {
       margin-top: 15%;

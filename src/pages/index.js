@@ -87,7 +87,7 @@ const IndexPage = () => (
             <div className="card h-100 shadow bg-white rounded">
               <img className="card-img" src={product3} alt="" />
               <div className="card-body">
-                <div className="card-title">Swarovski Crystal Sets</div>
+                <div className="card-title">Swarovski Crystals</div>
                 <div className="card-text">Price: CI$25</div>
               </div>
             </div>
