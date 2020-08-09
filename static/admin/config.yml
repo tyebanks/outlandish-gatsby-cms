@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: https://github.com/tyebanks/outlandish-gatsby-cms.git
+  repo: /outlandish-gatsby-cms
 
 
 media_folder: static/assets
