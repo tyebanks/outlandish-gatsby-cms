@@ -1,3 +1,5 @@
+# Files/Folders found in this file will be ignored by Github
+
 # Project dependencies
 .cache
 node_modules
