@@ -1,5 +1,7 @@
 backend:
-  name: test-repo
+  name: github
+  repo: https://github.com/tyebanks/outlandish-gatsby-cms 
+
 
 media_folder: static/assets
 public_folder: /assets
