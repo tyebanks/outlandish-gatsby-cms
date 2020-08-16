@@ -19,3 +19,4 @@ It was built using a Gatsby starter + react + reactbootstrap and is based off of
 #### Portfolio
 
 Preview Tynisha's Portfolio [here](https://tyebanks.github.io/)
+# portfolio-gatsby
