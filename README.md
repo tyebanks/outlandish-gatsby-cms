@@ -1,6 +1,5 @@
-# Outlandish-Cayman
-
-As part of my second Web Design assignment, this project is the final website design for Outlandish Cayman - a company based in the Cayman Islands. 
+# AS2: PORTFOLIO SITE
+This is my portfolio website as part of my second Web Design assignment. 
 
 Live Preview [here](https://outlandishcayman.netlify.app/)
 
