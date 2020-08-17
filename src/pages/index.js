@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 
 import Header from '../components/Header';
+import AboutText from '../components/AboutText';
 import Card from '../components/Card';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
@@ -26,8 +27,8 @@ const IndexPage = () => (
     <header className="masthead">
       <div className="container d-flex h-100 align-items-center mb-0">
           <div className="mx-auto text-center">
-             <img src={logo} className="img-fluid" alt="" />
-                    {/* <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1> */}       
+             <img src={logo} className="img-fluid" alt="outlandish cayman logo" />
+                  
              <p className="mt-5 mb-5">Convenient, Crafty and Courteous service</p>
              <Scroll type="id" element="about">
                  
@@ -39,20 +40,9 @@ const IndexPage = () => (
     </header>   
    
     <section id="about" className="about-section text-center">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">We love to Create</h2>
-            <p className="text-white">We are the home of Cayman's best Handmade Jewelry, Chainmaille, Charms,
+      <AboutText heading="We love to Create" text1="We are the home of Cayman's best Handmade Jewelry, Chainmaille, Charms,
              Sculptures, Arts, Crafts, DIYs and more! We are always trying something new and fun and are happy
-             to hear what you want to see us do!</p>
-             <p className="text-white">Want to place an order? Send us a message via Facebook:
-             <a className="text-yellow" href="https://www.facebook.com/outlandish.cayman/" > @outlandish.cayman</a>             
-            </p>
-            
-          </div>
-        </div>        
-      </div>
+             to hear what you want to see us do!" text2="Want to place an order? Send us a message via Facebook: " link="https://www.facebook.com/outlandish.cayman/" handle="@outlandish.cayman" />
     </section>
    
     <section id="products" className="products-section">   
