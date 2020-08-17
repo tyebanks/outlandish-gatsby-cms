@@ -5,4 +5,16 @@
   p {
     margin-bottom: 5rem;
   }
+
+  @media (min-width: 992px) {
+    height: 95vh;
+    padding: 10rem;
+    margin: 0;
+    img {
+      width: 100%;    
+    }
+  }
+
+
+
 }
