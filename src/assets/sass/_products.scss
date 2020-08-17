@@ -1,5 +1,9 @@
 .products-section {
-  background-image: url('../images/bg-07.png');
+  
+  
+  background: url('../images/bg-07.png');
+  background-attachment: fixed;
+  background-size: cover;
   padding: 0;
   margin: 0;
   height: auto;
@@ -25,19 +29,25 @@
     .col{
       width: 100%;
       display: flex;
-      padding: 2%;
-      padding-bottom: 12%;
+      justify-content: center;
+      padding-bottom: 15%;
     }
     .card{
-      width: 85vw;
+      width: 70vw;
+    }
+    .card:hover{
+      opacity: 1;
+      transform: scale(1.10);
+      transition: 0.3s ease-in-out;
+      text-transform: none;
     }
     .card-text {
-      font-size: 85%;
+      font-size: 75%;
     }
     .card-title{
       text-transform: uppercase;
       font-weight: bold;
-      font-size: 93%;
+      font-size: 80%;
     }
   }
 
@@ -53,7 +63,7 @@
       justify-content: center;
     }
      .card{
-      width: 50vw;
+      width: 60vw;
     }
   }
 

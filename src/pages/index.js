@@ -76,7 +76,7 @@ const IndexPage = () => (
               <img className="card-img" src={product2} alt="" />
               <div className="card-body">
                 <div className="card-title">Bracelets</div>
-                <div className="card-text">Price: CI$25</div>
+                <div className="card-text">Price: CI$15</div>
               </div>
             </div>
           </div>
@@ -88,7 +88,7 @@ const IndexPage = () => (
               <img className="card-img" src={product3} alt="" />
               <div className="card-body">
                 <div className="card-title">Swarovski Crystals</div>
-                <div className="card-text">Price: CI$25</div>
+                <div className="card-text">Price: CI$45</div>
               </div>
             </div>
           </div>
@@ -101,7 +101,7 @@ const IndexPage = () => (
               <img className="card-img" src={product4} alt=""/>
               <div className="card-body">
                 <div className="card-title">Pendants</div>
-                <div className="card-text">Price: CI$25</div>
+                <div className="card-text">Price: CI$10</div>
               </div>
             </div>
           </div>
@@ -111,7 +111,7 @@ const IndexPage = () => (
               <img className="card-img" src={product5} alt="" />
               <div className="card-body">
                 <div className="card-title">Wire Bracelets</div>
-                <div className="card-text">Price: CI$25</div>
+                <div className="card-text">Price: CI$15</div>
               </div>
             </div>
           </div> 
@@ -121,7 +121,7 @@ const IndexPage = () => (
               <img className="card-img" src={product6} alt=""/>
               <div className="card-body">
                 <div className="card-title">Chainmaille Bracelet</div>
-                <div className="card-text">Price: CI$25</div>
+                <div className="card-text">Price: CI$12</div>
               </div>
             </div>
           </div>
@@ -134,7 +134,7 @@ const IndexPage = () => (
               <img className="card-img" src={product7} alt=""/>
               <div className="card-body">
                 <div className="card-title">Angry Toast Plush</div>
-                <div className="card-text">Price: CI$25</div>
+                <div className="card-text">Price: CI$20</div>
               </div>
             </div>
           </div>
@@ -144,7 +144,7 @@ const IndexPage = () => (
               <img className="card-img" src={product8} alt="" />
               <div className="card-body">
                 <div className="card-title">Cayman Parrot Plush</div>
-                <div className="card-text">Price: CI$25</div>
+                <div className="card-text">Price: CI$20</div>
               </div>
             </div>
           </div> 
@@ -154,7 +154,7 @@ const IndexPage = () => (
               <img className="card-img" src={product9} alt=""/>
               <div className="card-body">
                 <div className="card-title">Kawaii Octopus Plush</div>
-                <div className="card-text">Price: CI$25</div>
+                <div className="card-text">Price: CI$20</div>
               </div>
             </div>
           </div>

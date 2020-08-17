@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `https://www.outlandish.store/admin`, // /gatsby-starter-outlandish/ This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/gatsby-starter-outlandish/`, // /gatsby-starter-outlandish/ This path is subpath of your hosting https://domain/portfolio
   heading: 'outlandish.store',
 
  // you can put something here and then in the file do config.heading to show it
