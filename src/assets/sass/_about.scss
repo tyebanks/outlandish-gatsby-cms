@@ -1,7 +1,8 @@
 .about-section {
-  padding-top: 5rem;
+  height: 100vh;
+  padding-top: 8rem;
   background: linear-gradient(to bottom, $purple 0%,#{fade-out($purple, .1)} 75%,#{fade-out($purple, .2)} 100%);
   p {
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
   }
 }
