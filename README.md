@@ -1,6 +1,5 @@
-# Outlandish-Cayman
-
-As part of my second Web Design assignment, this project is the final website design for Outlandish Cayman - a company based in the Cayman Islands. 
+# AS2: PORTFOLIO SITE
+This is my portfolio website as part of my second Web Design assignment. 
 
 Live Preview [here](https://outlandishcayman.netlify.app/)
 
@@ -19,3 +18,4 @@ It was built using a Gatsby starter + react + reactbootstrap and is based off of
 #### Portfolio
 
 Preview Tynisha's Portfolio [here](https://tyebanks.github.io/)
+# portfolio-gatsby
