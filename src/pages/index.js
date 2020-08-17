@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 
 import Header from '../components/Header';
+import Card from '../components/Card';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
@@ -54,113 +55,20 @@ const IndexPage = () => (
       </div>
     </section>
    
-    <section id="products" className="products-section">
-     
+    <section id="products" className="products-section">   
       <div className="container">  
-
-        <div className="row">
-          <div className="col">
-            <div className="card h-100 shadow bg-white rounded">
-              <img className="card-img" src={product1} alt=""/>
-              <div className="card-body">
-                <div className="card-title">Earrings</div>
-                <div className="card-text">Price: CI$25</div>
-              </div>
-            </div>
-          </div>
-        
-
-      
-          <div className="col">
-            <div className="card h-100 shadow bg-white rounded">
-              <img className="card-img" src={product2} alt="" />
-              <div className="card-body">
-                <div className="card-title">Bracelets</div>
-                <div className="card-text">Price: CI$15</div>
-              </div>
-            </div>
-          </div>
-        
-
-        
-          <div className="col">
-            <div className="card h-100 shadow bg-white rounded">
-              <img className="card-img" src={product3} alt="" />
-              <div className="card-body">
-                <div className="card-title">Swarovski Crystals</div>
-                <div className="card-text">Price: CI$45</div>
-              </div>
-            </div>
-          </div>
-      
-
-        
-        
-          <div className="col">
-            <div className="card h-100 shadow bg-white rounded">
-              <img className="card-img" src={product4} alt=""/>
-              <div className="card-body">
-                <div className="card-title">Pendants</div>
-                <div className="card-text">Price: CI$10</div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col">
-            <div className="card h-100 shadow bg-white rounded">
-              <img className="card-img" src={product5} alt="" />
-              <div className="card-body">
-                <div className="card-title">Wire Bracelets</div>
-                <div className="card-text">Price: CI$15</div>
-              </div>
-            </div>
-          </div> 
-
-          <div className="col">
-            <div className="card h-100 shadow bg-white rounded">
-              <img className="card-img" src={product6} alt=""/>
-              <div className="card-body">
-                <div className="card-title">Chainmaille Bracelet</div>
-                <div className="card-text">Price: CI$12</div>
-              </div>
-            </div>
-          </div>
-
-        
-
-        
-          <div className="col">
-            <div className="card h-100 shadow bg-white rounded">
-              <img className="card-img" src={product7} alt=""/>
-              <div className="card-body">
-                <div className="card-title">Angry Toast Plush</div>
-                <div className="card-text">Price: CI$20</div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col">
-            <div className="card h-100 shadow bg-white rounded">
-              <img className="card-img" src={product8} alt="" />
-              <div className="card-body">
-                <div className="card-title">Cayman Parrot Plush</div>
-                <div className="card-text">Price: CI$20</div>
-              </div>
-            </div>
-          </div> 
-
-          <div className="col">
-            <div className="card h-100 shadow bg-white rounded">
-              <img className="card-img" src={product9} alt=""/>
-              <div className="card-body">
-                <div className="card-title">Kawaii Octopus Plush</div>
-                <div className="card-text">Price: CI$20</div>
-              </div>
-            </div>
-          </div>
+          <div className="row">
+            <Card image={product1} alt="earrings" title="Earrings" text="Price: CI$25"/>
+            <Card image={product2} alt="braclet" title="Bracelets" text="Price: CI$15"/>
+            <Card image={product3} alt="swarovski" title="Swarovski Crystals" text="Price: CI$45"/>
+            <Card image={product4} alt="pendants" title="Pendants" text="Price: CI$10"/>
+            <Card image={product5} alt="wired braclet" title="Wire Bracelet" text="Price: CI$15"/>
+            <Card image={product6} alt="chainmaille" title="Chainmaille Braclet" text="Price: CI$15"/>
+            <Card image={product7} alt="angry toast plush" title="Angry Toast Plush" text="Price: CI$20"/>
+            <Card image={product8} alt="parrot plush" title="Cayman Parrot" text="Price: CI$20"/>
+            <Card image={product9} alt="kawaii plush" title="Kawaii Octopus Plush" text="Price: CI$20"/>
         </div>
-      </div>  
-       
+       </div> 
     </section> 
     <Contact />
     <Footer />
