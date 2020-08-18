@@ -17,7 +17,6 @@
     .container{
       display: flex;
       width: 100vw;
-      height: 100vh;
       padding-top: 20%;
       padding-bottom: 20%;
     }
@@ -36,7 +35,6 @@
     .card{
       width: 70vw;
     }
-    //Adding effect to enlarge card products
     .card:hover{
       opacity: 1;
       transform: scale(1.10);
@@ -71,6 +69,7 @@
 
   @media (min-width: 992px) {
     .container{
+      // border: 0.5rem solid $teal;
       padding-top: 6%;
       padding-bottom: 6%;
       font-size: 90%;  
@@ -97,6 +96,7 @@
 
 }
   
+
 
       
   
