@@ -1,5 +1,9 @@
-.products-section {  
+.products-section {
+  
+  
   background: url('../images/bg-07.png');
+  background-attachment: fixed;
+  background-size: cover;
   padding: 0;
   margin: 0;
   height: auto;
@@ -66,10 +70,6 @@
   }
 
   @media (min-width: 992px) {
-    background: url('../images/bg-07.png');
-    background-attachment: fixed;
-    background-size: cover;
-
     .container{
       padding-top: 6%;
       padding-bottom: 6%;
