@@ -6,22 +6,17 @@
     margin-bottom: 5rem;
   }
 
+  @media (min-width: 768px) {
+    height: 60vh;
+    margin-top: 15%;
+    width: 80%; 
+}
+
   @media (min-width: 992px) {
     height: 95vh;
     padding: 10rem;
     margin: 0;
   }
   
-  //Media Queries below target iPad
-
-  // * Portrait Orientation- Media Query found on GitHub https://gist.github.com/pburtchaell/e702f441ba9b3f76f587
-  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
-      height: 1024px;
-  }
-  // * Landscape Orientation- Media Query found on GitHub https://gist.github.com/pburtchaell/e702f441ba9b3f76f587
-  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
-      height: 768px;
-  
-  }
 
 }
