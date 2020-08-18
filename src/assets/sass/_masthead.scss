@@ -1,68 +1,62 @@
-.masthead {
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 35rem;
-  padding: 10rem 0;
-  background: url('../images/art.jpg') no-repeat center center fixed;
-  background-attachment: scroll;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  i{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    background: fade-out($black, .35);
-  }
-=======
+  .masthead {
+ 
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 10rem 0;
+    background: url('../images/art.jpg') no-repeat center center fixed;
+    background-attachment: scroll;
+    i{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      background: fade-out($black, .35);
+      // background: black;
+    }
   
->>>>>>> parent of f81830a... final changes made to project
-=======
+    @media (min-width: 400px) {
+      img{
+        max-width: 700px;
+        width: 90%;
+        margin-top: 28%;
+      }
+    }
+    @media (min-width: 768px) {
+      img {
+        margin-top: 15%;
+        width: 80%;
+      }
+    }
+    @media (min-width: 992px) {
+      height: 95vh;
+      padding: 0;
+      margin: 0;
+      img {
+        width: 100%;    
+      }
+    }
   
->>>>>>> parent of f81830a... final changes made to project
-
-  @media (min-width: 400px) {
-    img{
-      max-width: 700px;
-      width: 90%;
-      margin-top: 28%;
+    // Animation code below
+  
+    .text {
+      align-self: flex-end;
+      animation-duration: 2.5s;
+      animation-iteration-count: infinite;
+      margin: 0 auto 0 auto;
+  /*         transform-origin: top; */
     }
+   .floating {
+      animation-name: floating;
+      animation-timing-function: linear;
+   }
+  @keyframes floating {
+      0%   { transform: translateY(0); }
+      50%  { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
   }
-  @media (min-width: 768px) {
-    img {
-      margin-top: 15%;
-      width: 80%;
-    }
+  
   }
-  @media (min-width: 992px) {
-    height: 95vh;
-    padding: 0;
-    margin: 0;
-    img {
-      width: 100%;    
-    }
-  }
-
-  // Animation code below
-
-  .text {
-    align-self: flex-end;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-    margin: 0 auto 0 auto;
-/*         transform-origin: top; */
-  }
- .floating {
-    animation-name: floating;
-    animation-timing-function: linear;
- }
-@keyframes floating {
-    0%   { transform: translateY(0); }
-    50%  { transform: translateY(-20px); }
-    100% { transform: translateY(0); }
-}
-
-}
