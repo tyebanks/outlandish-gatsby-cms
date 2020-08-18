@@ -32,7 +32,7 @@ const IndexPage = () => (
              <p className="mt-5 mb-5">Convenient, Crafty and Courteous service</p>
              <Scroll type="id" element="about">
                  
-                 <a href="#about"><i className="fas fa-angle-double-down text floating text-white fa-1x"></i></a>
+                 <a href="#about"><i className="fas fa-angle-double-down text floating text-white"></i></a>
                  
             </Scroll>          
           </div>

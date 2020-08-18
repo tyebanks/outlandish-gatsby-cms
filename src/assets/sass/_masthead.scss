@@ -6,6 +6,7 @@
   padding: 10rem 0;
   background: url('../images/art.jpg') no-repeat center center fixed;
   background-attachment: scroll;
+<<<<<<< HEAD
   i{
     display: flex;
     justify-content: center;
@@ -15,6 +16,9 @@
     border-radius: 50%;
     background: fade-out($black, .35);
   }
+=======
+  
+>>>>>>> parent of f81830a... final changes made to project
 
   @media (min-width: 400px) {
     img{
