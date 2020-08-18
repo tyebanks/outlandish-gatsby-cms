@@ -5,11 +5,13 @@
   p {
     margin-bottom: 5rem;
   }
-<<<<<<< HEAD
 
- 
-  
-
-=======
->>>>>>> parent of f81830a... final changes made to project
+  @media (min-width: 992px) {
+    height: 95vh;
+    padding: 10rem;
+    margin: 0;
+    img {
+      width: 100%;    
+    }
+  }
 }
