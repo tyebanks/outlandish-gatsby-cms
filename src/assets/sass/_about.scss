@@ -10,11 +10,18 @@
     height: 95vh;
     padding: 10rem;
     margin: 0;
-    img {
-      width: 100%;    
-    }
   }
+  
+  //Media Queries below target iPad
 
-
+  // * Portrait Orientation- Media Query found on GitHub https://gist.github.com/pburtchaell/e702f441ba9b3f76f587
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
+      height: 1024px;
+  }
+  // * Landscape Orientation- Media Query found on GitHub https://gist.github.com/pburtchaell/e702f441ba9b3f76f587
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
+      height: 768px;
+  
+  }
 
 }
